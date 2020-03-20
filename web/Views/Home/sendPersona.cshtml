@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using web.Models;
+@model web.Models.Persona;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>sendPersona</title>
+</head>
+<body>
+    @{
+        Persona p = new Persona();
+        
+        <form method="post">
+            <input type="text" id="Dni" name="Dni" />
+            <input type="text" id="Nombre" name="Nombre" />
+            <input type="text" id="Apellido" name="Apellido" />
+
+            <button type="submit"></button>
+        </form>
+            }
+  
+
+
+    </body>
+</html>
